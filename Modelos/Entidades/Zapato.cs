@@ -52,7 +52,6 @@ namespace Modelos.Entidades
                 SqlCommand insertar = new SqlCommand(consultaQueryInsert, conexion);
                 //Vamos a insertar o sustituir los @nombre con los datos que se obtienen en los txt
 
-
                 insertar.Parameters.AddWithValue("@CategoriaId", idCategoria);
                 insertar.Parameters.AddWithValue("@Nombre", nombre);
                 insertar.Parameters.AddWithValue("@Precio", precio);
@@ -66,6 +65,24 @@ namespace Modelos.Entidades
             {
                 MessageBox.Show("Verifica si la consulta de insertar esta correcta" +ex, "Error al insertar datos", MessageBoxButtons.OK,MessageBoxIcon.Error);
                 return false;
+            }
+        }
+
+        public bool eliminarZapato(int id)
+        {
+            try
+            {
+                SqlConnection conectar = ConexionDB.Conectar();
+                string consultaDelete = "Delete from Zapatos where id=@id";
+                SqlCommand delete = new SqlCommand(consultaDelete, conectar);
+                delete.Parameters.AddWithValue("@id",id);
+                delete.ExecuteNonQuery();
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+
             }
         }
     }
