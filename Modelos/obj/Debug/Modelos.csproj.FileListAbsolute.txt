@@ -1,0 +1,6 @@
+C:\Users\USER\Desktop\Zapatos-parte-1\Modelos\bin\Debug\Modelos.dll
+C:\Users\USER\Desktop\Zapatos-parte-1\Modelos\bin\Debug\Modelos.pdb
+C:\Users\USER\Desktop\Zapatos-parte-1\Modelos\obj\Debug\Modelos.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Zapatos-parte-1\Modelos\obj\Debug\Modelos.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Zapatos-parte-1\Modelos\obj\Debug\Modelos.dll
+C:\Users\USER\Desktop\Zapatos-parte-1\Modelos\obj\Debug\Modelos.pdb

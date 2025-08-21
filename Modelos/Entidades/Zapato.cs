@@ -51,6 +51,8 @@ namespace Modelos.Entidades
                 string consultaQueryInsert = "insert into Zapatos (CategoriaId, Nombre, Precio, ImagenURL, FechaCreacion) values (@CategoriaId, @Nombre, @Precio, @ImagenURL, @FechaCreacion);";
                 SqlCommand insertar = new SqlCommand(consultaQueryInsert, conexion);
                 //Vamos a insertar o sustituir los @nombre con los datos que se obtienen en los txt
+
+
                 insertar.Parameters.AddWithValue("@CategoriaId", idCategoria);
                 insertar.Parameters.AddWithValue("@Nombre", nombre);
                 insertar.Parameters.AddWithValue("@Precio", precio);
