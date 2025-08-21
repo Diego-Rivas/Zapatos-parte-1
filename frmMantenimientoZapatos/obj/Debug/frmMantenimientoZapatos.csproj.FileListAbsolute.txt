@@ -1,0 +1,13 @@
+C:\Users\Estudiante\Desktop\Zapatos-parte-1\frmMantenimientoZapatos\bin\Debug\frmMantenimientoZapatos.exe.config
+C:\Users\Estudiante\Desktop\Zapatos-parte-1\frmMantenimientoZapatos\bin\Debug\frmMantenimientoZapatos.exe
+C:\Users\Estudiante\Desktop\Zapatos-parte-1\frmMantenimientoZapatos\bin\Debug\frmMantenimientoZapatos.pdb
+C:\Users\Estudiante\Desktop\Zapatos-parte-1\frmMantenimientoZapatos\bin\Debug\Modelos.dll
+C:\Users\Estudiante\Desktop\Zapatos-parte-1\frmMantenimientoZapatos\bin\Debug\Modelos.pdb
+C:\Users\Estudiante\Desktop\Zapatos-parte-1\frmMantenimientoZapatos\obj\Debug\frmMantenimientoZapatos.csproj.AssemblyReference.cache
+C:\Users\Estudiante\Desktop\Zapatos-parte-1\frmMantenimientoZapatos\obj\Debug\frmMantenimientoZapatos.frmMantenimientoZapatos.resources
+C:\Users\Estudiante\Desktop\Zapatos-parte-1\frmMantenimientoZapatos\obj\Debug\frmMantenimientoZapatos.Properties.Resources.resources
+C:\Users\Estudiante\Desktop\Zapatos-parte-1\frmMantenimientoZapatos\obj\Debug\frmMantenimientoZapatos.csproj.GenerateResource.cache
+C:\Users\Estudiante\Desktop\Zapatos-parte-1\frmMantenimientoZapatos\obj\Debug\frmMantenimientoZapatos.csproj.CoreCompileInputs.cache
+C:\Users\Estudiante\Desktop\Zapatos-parte-1\frmMantenimientoZapatos\obj\Debug\frmMante.60D7201C.Up2Date
+C:\Users\Estudiante\Desktop\Zapatos-parte-1\frmMantenimientoZapatos\obj\Debug\frmMantenimientoZapatos.exe
+C:\Users\Estudiante\Desktop\Zapatos-parte-1\frmMantenimientoZapatos\obj\Debug\frmMantenimientoZapatos.pdb

@@ -30,7 +30,7 @@ namespace Modelos.Entidades
             try
             {
                 SqlConnection conexion = ConexionDB.Conectar();
-                string cadena = "Select *from vistasCategorias";
+                string cadena = "Select *from vistaCategoria";
                 SqlDataAdapter data = new SqlDataAdapter(cadena, conexion);
                 DataTable tablaVirtual = new DataTable();
                 data.Fill(tablaVirtual);

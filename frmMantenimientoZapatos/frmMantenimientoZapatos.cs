@@ -81,7 +81,19 @@ namespace frmMantenimientoZapatos
         private void btnEliminar_Click(object sender, EventArgs e)
         {
             Zapato zapatoEliminar = new Zapato();
-            int id = int.Parse(dgvProductosAlmacen.CurrentRow.Cells[].Value.ToString());
+            int id = int.Parse(dgvProductosAlmacen.CurrentRow.Cells[0].Value.ToString());
+            string registroAEliminar = dgvProductosAlmacen.CurrentRow.Cells[1].Value.ToString();
+            DialogResult respuesta = MessageBox.Show("¿Quieres eliminar este registro?\n"+ registroAEliminar, "Advertencia eliminaras un registro", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (respuesta==DialogResult.Yes) {
+                if (zapatoEliminar.eliminarZapato(id)==true) {
+                    MessageBox.Show("Registro eliminado\n" + registroAEliminar, "Advertencia eliminaras un registro", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+                }
+            }
+            else {
+            
+            }
         }
     }
 }
